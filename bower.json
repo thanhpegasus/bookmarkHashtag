@@ -1,0 +1,13 @@
+{
+  "name": "bookmarkHashTag",
+  "version": "0.0.0",
+  "license": "MIT",
+  "directory" : "scripts",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "scripts",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Bookmark Hashtag</title>
+	    <meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="description" content="">
+    	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+		<link rel="stylesheet" href="../scripts/angular-material/angular-material.min.css">
+		<style type="text/css">
+	        /**
+	         * Hide when Angular is not yet loaded and initialized
+	         */
+	        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+				display: none !important;
+	        }
+    	</style>
+	</head>
+	<body ng-cloak>
+		<main ng-view>
+			
+		</main>
+		<script src="../scripts/angular/angular.min.js"></script>
+	    <script src="../scripts/angular-animate/angular-animate.min.js"></script>
+    	<script src="../scripts/angular-aria/angular-aria.min.js"></script>
+		<script src="../scripts/angular-route/angular-route.min.js"></script>
+		<script src="../scripts/angular-material/angular-material.js"></script>
+		<script src="./app.js"></script>
+		<script src="./config.js"></script>
+		<script src="./controllers/bookmarkCtrl.js"></script>
+		<script src="./controllers/folderCtrl.js"></script>
+		<script src="./services/bookmarkSvc.js"></script>
+	</body>
+</html>
+
+

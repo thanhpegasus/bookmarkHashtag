@@ -1,0 +1,17 @@
+<md-toolbar layout="row">
+	<div class="md-toolbar-tools">
+        <md-input-container flex>
+        	{{vm.model.heading}}
+        </md-input-container>
+	</div>
+</md-toolbar>
+<md-card ng-repeat="bookmark in vm.model.allBookmark">
+	<!-- <img src="card-image.png" class="md-card-image" alt="image caption"> -->
+	<md-card-content>
+		<h2>{{bookmark.title}}</h2>
+		<a href="{{bookmark.url}}">{{bookmark.url}}</a>
+	</md-card-content>
+	<md-card-footer>
+		{{bookmark.dateAdded}}
+	</md-card-footer>
+</md-card>

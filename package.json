@@ -1,0 +1,14 @@
+{
+  "name": "bookmark-hashtag",
+  "version": "1.0.0",
+  "description": "This is chrome extension to manage bookmark",
+  "main": "app/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanhpegasus",
+  "license": "ISC"
+}
